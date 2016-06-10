@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python tutorial - Part 5</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<h1 id="python-tutorial">Python tutorial</h1>
+
+
+
+<h2 id="part-5">Part 5</h2>
+
+<p>In this part of the tutorial, you’ll be learning about <em>loops</em>. Loops are a way of running code multiple times. Of course, you could copy-paste the code as many times as you want it to run, but that makes the code long and hard to read. Loops make it much simpler.</p>
+
+<p>In Python, there are two main kinds of loops. <code>for</code> loops, and <code>while</code> loops.</p>
+
+<p>For loops run the code a set amount of times. The syntax for a for loop is:</p>
+
+<pre><code>for i in [1, 2, 3, 4]:
+    do this
+</code></pre>
+
+<p>The above snippet would run the code four times. <br>
+But what if you want to run the code… let’s say ten times? Writing <code>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]</code> takes a while and makes the code hard to read. Well, there’s a solution: the <code>range()</code> command.</p>
+
+<pre><code>for i in range(0, 10):
+    do this
+</code></pre>
+
+<p>The above code will run <code>do this</code> ten times. <br>
+Hey, why does it say <code>0, 10</code>, not <code>1, 10</code>? Well, <code>1, 10</code> would would work too, but most people prefer starting loops at 0.</p>
+
+<p>Let’s make a countdown from 10 using a for loop.</p>
+
+<pre><code>for i in range(10, 0, -1):
+    print(i)
+</code></pre>
+
+<p>What’s the <code>-1</code> for? It makes the loop decrement one from <code>i</code> instead of adding one to it.</p>
+
+<hr>
+
+<p>The other kind of loop, as you may remember, is a <code>while</code> loop. While loops run <em>while</em> a certain condition is True. For example:</p>
+
+<pre><code>number = input("Enter a number greater than 10: ")
+while int(number) &lt; 10:
+    print("Try again!")
+    number = input("Enter a number greater than 10: ")
+
+print("Good job!")
+</code></pre>
+
+<p>The above code will get input, and check if it’s greater than 10. If it isn’t, it keeps asking you. If it is, it exits out of the loop and says “Good job!”.</p>
+
+<hr>
+
+
+
+<h2 id="exercises">Exercises</h2>
+
+<ul>
+<li><p>Choose a secret password. Make a program that asks for a password. If the input is the password you chose, display “Access granted!” Else, keep asking for the password.</p></li>
+<li><p>Make a program that uses a loop to print the multiplication table of 8.</p></li>
+</ul>
+<br>
+<center><a href="part4.html"><- Back</a>|<a href="part6.html">Next -></a>
+</body>
+</html>

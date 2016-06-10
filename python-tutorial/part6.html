@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python tutorial - Part 6</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<h1 id="python-tutorial">Python tutorial</h1>
+
+
+
+<h2 id="part-6">Part 6</h2>
+
+<p>By now, I hope you know what a variable is, because in this part we’ll be learning about <em>lists</em>. <br>
+Lists are, simply explained, variables that can store multiple <em>items</em>.</p>
+
+<p>Let’s say you wanted to store the number from 1 to 5 in a list. In Python, you would do this:</p>
+
+<p><code>numbers = [1, 2, 3, 4, 5]</code></p>
+
+<p>As you can see, the list’s items are put in between the square brackets <code>[ ]</code>, and they are separated by commas.</p>
+
+<p>Lists can contain any type of data:</p>
+
+<p><code>data = ["Hello", 5, "z", 8.252]</code></p>
+
+<p>They can even contain other lists:</p>
+
+<p><code>lots_of_lists = [[1, 2, 3], ["Hi", "there"]]</code></p>
+
+<hr>
+
+<p>But how do you <em>use</em> the lists? Well, to get a specific item from a list, you can use the syntax <code>name[item]</code>. For example:</p>
+
+<pre><code>myList = ["Hello, world!", "abc"]
+print(myList[0])
+</code></pre>
+
+<p>The above code will display the first item in the list, “Hello, world!”</p>
+
+<blockquote>
+  <p><strong>Note:</strong> List indices start from 0, not 1.</p>
+</blockquote>
+
+<p>An alternative would be assigning a list item to a variable, and then printing the variable:</p>
+
+<pre><code>myList = ["Hello, world!", "abc"]
+myItem = myList[0]
+print(myItem)
+</code></pre>
+
+<hr>
+
+<p>What if you want to add an item to a list while the code is running? You should use the <code>append()</code> <em>function</em>. (We’ll talk more about functions later, but for now just treat it like any other command)</p>
+
+<pre><code>myList = []
+myList.append("Hello")
+print(myList)
+</code></pre>
+
+<p>The code would display <code>["Hello"]</code>. As you can see, you can use <code>append()</code> to add an item to a list any time.</p>
+
+<p>Let’s write a simple program that gets two numbers, adds them to a list and displays them.</p>
+
+<pre><code>numbers = []
+
+num1 = input("Choose a number: ")
+num2 = input("Choose another number: ")
+
+numbers.append(num1)
+numbers.append(num2)
+
+print("You chose " + numbers[0] + " and " + numbers[1])
+</code></pre>
+
+<p>Try it out!</p>
+
+<p>You can also insert data wherever you want in the list using the <code>insert()</code> function.</p>
+
+<p><code>myList = myList.insert(6, "Hi")</code></p>
+
+<p>Would insert “Hi” at the sixth position in the list.</p>
+
+<hr>
+
+<p>Sometimes, you’ll need to remove items from a list to. There are three functions that can do this, but they all do different things to the list.</p>
+
+<ol>
+<li><code>del()</code></li>
+<li><code>remove()</code></li>
+<li><code>pop()</code></li>
+</ol>
+
+<h2 id="del">del()</h2>
+
+<p><code>del()</code> lets you remove an item from wherever in the list using the item’s position in the list. For example, if you wanted to remove the third item in the list, you could write the following code:</p>
+
+<p><code>list = list.del(2)</code></p>
+
+<p>Why do you need to do <code>list = list...</code>? <br>
+Well, <code>del()</code> is a function which <em>returns</em> a value. What you’re doing is <code>list</code> with the third item removed to the variable name <code>list</code>. Yes, it’s a little confusing, but that’s how it works. (More on functions later)</p>
+
+<h2 id="remove">remove()</h2>
+
+<p><code>remove()</code> removes an item from wherever in the list using the item’s data. Let’s say you have the item “Delete this” in the list. To remove it, you would do:</p>
+
+<p><code>list = list.remove("Delete this")</code>.</p>
+
+
+
+<h2 id="pop">pop()</h2>
+
+<p><code>pop()</code> is a little different from the other functions. It takes the list’s last item and returns it. You can assign the item to a variable too.</p>
+
+<pre><code>lastItem = list.pop()
+print(lastItem)
+</code></pre>
+
+<p>Would remove the last item from the list, and then display it.</p>
+
+<hr>
+
+<p>We’ll talk more about lists in the next part.</p>
+
+<hr>
+
+<h2 id="exercises">Exercises</h2>
+
+<ul>
+<li>Write any kind of program that uses lists. (I’m a bit lazy)</li>
+</ul>
+<br>
+<center><a href="part5.html"><- Back</a>|<a href="part7.html">Next -></a>
+</body>
+</html>
