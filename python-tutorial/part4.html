@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python tutorial - Part 4</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+</head>
+<body>
+
+<h1 id="python-tutorial">Python tutorial</h1>
+
+
+
+<h2 id="part-4">Part 4</h2>
+
+<p>So far, your programs haven’t done any <em>decision-making</em>. Let’s say you wanted to make a program that asks for two numbers, and checks if they are equal. <br>
+If they are equal, the program displays “Equal!” If they aren’t, it displays “Not equal”.</p>
+
+<p>For this, you’ll need to use <em>conditional statements</em>, also known as “if statements”.</p>
+
+<p>In Python, the basic syntax for if statements is:</p>
+
+<pre><code>if (condition):
+    do this
+</code></pre>
+
+<p>If the condition is <code>True</code>, the code will be executed. If it isn’t, the code will be skipped. <br>
+What if you want different code to run if the condition is <code>False</code>? Use an if-else statement.</p>
+
+<pre><code>if (condition):
+    do this
+else:
+    do this
+</code></pre>
+
+<p>Let’s write the number-checking program using an if-else statement.</p>
+
+<pre><code>number1 = input("Input a number: ")
+number2 = input("Input another number: ")
+
+if number1 == number2:
+    print("Equal!")
+else:
+    print("Not equal.")
+</code></pre>
+
+<p>The code is quite self-explanatory. <br>
+Hmm, what’s the <code>==</code>? Why can’t you use <code>=</code> instead?</p>
+
+<p>Well, that’s because <code>=</code> is used for assigning variables to data. <code>==</code> is a <em>comparison operator</em>. Comparison operators are used to compare different data.</p>
+
+<ul>
+<li><code>==</code> checks if two values are equal. If they are, the condition is <code>True</code>.</li>
+<li><code>!=</code> checks if two values are not equal. If they aren’t, the condition is <code>True</code>.</li>
+<li><code>&gt;</code> checks if the left value is greater than the right value. If they are, the condition is <code>True</code>.</li>
+<li><code>&lt;</code> checks if the left value is less than the right value. If they are, the condition if <code>True</code>.</li>
+<li><code>&gt;=</code> checks if the left value is greater or equal to the right value.</li>
+<li><code>&lt;=</code> checks if the left value is less or equal to the right value.</li>
+</ul>
+
+<p>You can compare any type of data using comparison operators:</p>
+
+<pre><code>if "abc" == "cba":
+    print("Condition is True!")
+else:
+    print("Condition is False!")
+</code></pre>
+
+<p>Or:</p>
+
+<pre><code>if 10.6 &gt; 9.3:
+    print("Condition is True!")
+else:
+    print("Condition is False!")
+</code></pre>
+
+<blockquote>
+  <p><strong>Info:</strong> Numbers with decimal points such as 10.6, 3.7 and 6.542 are called <em>floating-point numbers</em>, or simply <em>floats</em>.</p>
+</blockquote>
+
+<hr>
+
+
+
+<h2 id="exercises">Exercises</h2>
+
+<ul>
+<li>Write a program that asks for the user’s favorite number. If it’s over 50, print “Your favorite number is over 50.” If it isn’t, print “Your favorite number is under 50.”</li>
+<li>Make a simple guessing game. Choose a number. Then, get input, and if the input is equal to the number, display “You won!”</li>
+</ul>
+
+<blockquote>
+  <p><strong>Note:</strong> Remember that you can’t compare integers to strings! You can use <code>int()</code> to convert a string to an integer, and <code>str()</code> to convert an integer/float to a string.</p>
+</blockquote>
+</body>
+</html>

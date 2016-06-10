@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Python tutorial - Part 3</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	
+</head>
+<body>
+
+<h1 id="python-tutorial">Python tutorial</h1>
+
+
+
+<h2 id="part-3">Part 3</h2>
+
+<p>So far, you’ve been writing <em>output-only</em> programs. That means that the programs only display text. They aren’t very interactive.</p>
+
+<p>Well, let’s change that. Let’s get to know a new command, <code>input()</code>. <code>input()</code> asks for, well, input. Let’s make a program that asks for the user’s name is, and says “Hello, (name)!”.</p>
+
+<pre><code>print("What is your name?")
+name = input()
+print("Hello, " + name)
+</code></pre>
+
+<p>Yes, you can assign input to variables. In this case, the user’s input is being assigned to the <code>name</code> variable.</p>
+
+<blockquote>
+  <p><strong>Info:</strong> If you don’t want to use <code>print()</code> along with <code>input()</code>, you can also do <code>input("What is your name? ")</code>. This gets input on the same line as the text.</p>
+</blockquote>
+
+<p>The next line of code displays “Hello, ” along with the <code>name</code> variable.</p>
+
+<p>To add two or more strings together, you can do <code>print(text1 + text2)</code>. It’s as simple as that. Of course, if you try adding two integers together, you’ll get the result, but we’re talking about strings.</p>
+
+<hr>
+
+<p>Well, now that you know about displaying text, math, variables and input, let’s combine those and create a simple calculator (more specifically, an adder).</p>
+
+<p>Before you freak out, let me tell you that it’s actually quite simple. Type the following code into a file:</p>
+
+<pre><code>num1 = input("Type the first number: ")
+num2 = input("Type the second number: ")
+print("The result is " + str(num1 + num2) + ".")
+</code></pre>
+
+<p>Hey, why is there a <code>str()</code> command there? Well, you can’t add integers to strings, so you have to convert the integer to a string first. <code>str()</code> does just that.</p>
+
+<hr>
+
+
+
+<h2 id="exercises">Exercises</h2>
+
+<ul>
+<li>Make a program that asks what you want to print, and how many times you want to print it. Then print it as many times as specified by the input.</li>
+<li>Take the code for the simple calculator, and change it so you can add three numbers together.</li>
+</ul>
+</body>
+</html>
