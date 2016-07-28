@@ -1,0 +1,33 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body id="preview">
+<h1><a id="Python_tutorial_0"></a>Python tutorial</h1>
+<h2><a id="Part_8_3"></a>Part 8</h2>
+<p>In this part, we’ll be learning about functions. Functions are snippets of code that can be <em>called</em> (run) from anywhere in the code. It keeps the code clean and hopefully more readable.</p>
+<p>Let’s <em>define</em> a simple function using the <code>def</code> command.</p>
+<pre><code>def simpleFunction():
+    print(&quot;Hello&quot;)
+</code></pre>
+<p>This function can be called from anywhere in the code like this:</p>
+<pre><code>simpleFunction()
+</code></pre>
+<p>The above code will output “Hello”.</p>
+<p>The parentheses are for <em>arguments</em>. Arguments are simply variables that the function will do something with. Arguments go in between the paretheses, as so:</p>
+<pre><code>def greet(name):
+    print(&quot;Hello, &quot; + name)
+</code></pre>
+<p>Can you guess what it does? Try calling this function.</p>
+<pre><code>greet(&quot;John&quot;)
+</code></pre>
+<p>You can have as many arguments as you like:</p>
+<pre><code>def greet(name1, name2, name3):
+    print(&quot;Hello, &quot; + name1 + &quot;, &quot; + name2 + &quot; and &quot; + name3)
+    
+greet(&quot;John&quot;, &quot;Mary&quot;, &quot;Bob&quot;)
+</code></pre>
+<hr>
+<h2><a id="Exercises_47"></a>Exercises</h2>
+<ol>
+<li>Write a function that takes two numbers as arguments, multiplies them, and displays the result.</li>
+</ol>
+<br>
+<center><a href="part7.html"><- Back</a>|<a href="part9.html">Next -></a>
+</body></html>

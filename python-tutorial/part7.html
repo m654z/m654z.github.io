@@ -1,0 +1,44 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style></style></head><body id="preview">
+<h1><a id="Python_tutorial_0"></a>Python tutorial</h1>
+<h2><a id="Part_7_3"></a>Part 7</h2>
+<p>As promised, in this part we’ll be learning more about lists.</p>
+<hr>
+<p>Sometimes, you’ll need to join a list, meaning converting it to a string. That’s what the <code>join()</code> function is for.
+Try running this code:</p>
+<pre><code>testList = ['Thi', 's is ', 'a li', 'st!']
+testList = ''.join(testList)
+print(testList)
+</code></pre>
+<p>It should output “This is a list!”</p>
+<p>Basically, the <code>join()</code> function joins a list, and puts whatever is in the quotes between the list items. It’s a little confusing, but it’s not difficult.</p>
+<p>Let’s try something else with the <code>join()</code> function.</p>
+<pre><code>testList = ['This is ', ' list!]
+testList = 'a'.join(testList)
+print(testList)
+</code></pre>
+<p>As you can see, the “a” is put in between the list’s items.</p>
+<hr>
+<p>Now, onto the <code>list()</code> function. What it does is convert a string (or object, onto that later) into a list.</p>
+<pre><code>print(list(&quot;Hello&quot;))
+</code></pre>
+<p>You should see <code>[&quot;H&quot;, &quot;e&quot;, &quot;l&quot;, &quot;l&quot;, &quot;o&quot;]</code> appear.</p>
+<p>Pretty easy to understand, it basically splits the string at every character.</p>
+<hr>
+<p>Now, we’ll learn about the <code>range()</code> function. (If you’re confused about functions, just think of them as normal commands. We’ll learn about them in the next part.)</p>
+<p>Remember when we were learning about loops? We used <code>range()</code> back then.</p>
+<p>What <code>range()</code> does is create a list of numbers in a certain range. Let’s create a list with the numbers from 1 to 100.</p>
+<pre><code>numbers = list(range(1, 100))
+print(numbers)
+</code></pre>
+<p>It should output a list with the numbers from 1 to 100.</p>
+<p>But why do we need the extra <code>list()</code>? Well, <code>range()</code> returns an <em>object</em> (we’ll learn about them much later) and it needs to be converted to a list.</p>
+<hr>
+<h2><a id="Exercises_64"></a>Exercises</h2>
+<ol>
+<li>Experiment with <code>join()</code>.</li>
+<li>Write a program that takes input, splits it, joins it again, and outputs it. Useless, but hey.</li>
+<li>Write a program that takes two numbers as input, and outputs the numbers in the range of the two numbers as a list.</li>
+</ol>
+<br>
+<center><a href="part6.html"><- Back</a>|<a href="part8.html">Next -></a>
+</body></html>
