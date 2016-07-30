@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>JSCalc</title>
+<script src="math.js" type="text/javascript"></script>
+</head>
+<center>
+<h1>JSCalc</h1>
+<br>
+<textarea name="expression" rows="4" cols="50" id="expr"></textarea>
+<br>
+<input type="button" id="btn" onclick="document.getElementById('result').value; = evaluate(document.getElementById('expr').value);" value="Evaluate"></input>
+<script type="text/javascript">
+function evaluate(expr) {
+	return math.eval(expr);
+}	
+</script>
+<br>
+<br>
+<h4>Result</h4>
+<input type="text" id="result" value=""/>
+</center>
+</html>
