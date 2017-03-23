@@ -49,7 +49,16 @@
 You can now search for something by typing the search term into the text box and pressing Enter or clicking the Search button.</p>
 <p>The contents of the file will be displayed under the text box.</p>
 <h3><a id="2_Creating_a_library_14"></a>2. Creating a library</h3>
-<p>To create a library, you’ll want to create the basic folder structure first. Make a folder in the pages folder. It should look life this:</p>
+<p>First of all, you'll need to create the basic folder structure. You can do this by going to Tools->Generate Library.</p>
+<p>That’s all there is to it. For now, just leave the alias file blank.</p>
+<p>Now you can begin making the pages. In Keystroke, navigate to Tools-&gt;Page Designer to create a page. Save it in the main folder. Put any images in the images folder.<br>
+Alternatively, you can make the page files by hand.</p>
+<pre><code>[image file]
+[title]
+[text, can be on multiple lines]
+</code></pre>
+<h4>2.1 Making the basic folder structure</h4>
+<p>Alternatively you can do it youself. Make a folder in the pages folder. It should look life this:</p>
 <pre><code>-pages
 --[your library name]   # I'll call this the main folder from now on
 ---images               # This is where you'll put all your images
@@ -57,19 +66,12 @@ You can now search for something by typing the search term into the text box and
 ----alias.txt           # This is where you'll put all the aliases.
 --[loader file].ks         # What you'll use to load the library
 </code></pre>
-<p>First of all, you should set up the loader file.</p>
+<p>Next, you should set up the loader file.</p>
 <pre><code>loader
 [library name]
 [main folder name]
 </code></pre>
-<p>That’s all there is to it. For now, just leave the alias file blank.</p>
-<p>Now you can begin making the pages. In Keystroke, navigate to Tools-&gt;Page Designer to create a page. Save it in the main folder. Put any images in the images folder.<br>
-Alternatively, you can make the page files by hand.</p>
-<pre><code>[image file]
-[title]
-[text, can be om multiple lines]
-</code></pre>
-<h4><a id="21_Aliases_41"></a>2.1 Aliases</h4>
+<h4><a id="22_Aliases_41"></a>2.2 Aliases</h4>
 <p>Let’s say you have a page called “dog”. You want the search term “puppy” to link to “dog”. You can do this with aliases. In Keystroke, navigate to Tools-&gt;Add Alias.</p>
 <p>Alternatively, open the alias.txt file and remove “none”. Add the following line:</p>
 <pre><code>puppy|dog
