@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Interactive map of Sevastopol</title>
+		<style>
+			.side {
+				height: 100%;
+				width: 300px;
+				position: fixed;
+				z-index: 1;
+				top: 0;
+				left: 0;
+				overflow-x: hidden;
+				padding-top: 20px;
+				padding-left: 5px;
+			}
+			
+			.main {
+				margin-left: 290px;
+				padding: 0px 10px;
+			}
+			
+			@media screen and (max-height: 450px) {
+				.side {padding-top: 15px; }
+			}
+			
+			h1 {
+				font-family: Arial, sans-serif;
+			}
+			
+			h2 {
+				font-family: Arial, sans-serif;
+			}
+			
+			p {
+				font-family: Arial, sans-serif;
+			}
+		</style>
+		<script>
+			set_info = function(name)
+			{
+				document.getElementById("image").src = "images/" + images[name];
+				document.getElementById("info").innerHTML = info[name];
+				document.getElementById("missions").innerHTML = missions[name];
+				document.getElementById("area").innerHTML = name;
+			}
+			set_map = function(type)
+			{
+				if(type == "areas")
+				{
+					document.getElementById("map").src = "map.png"
+				}
+				if(type == "transit")
+				{
+					document.getElementById("map").src = "transit_map.png"
+				}
+				if(type == "items")
+				{
+					document.getElementById("map").src = "item_map.png"
+				}
+			}
+			var images={
+				"Penthouses": "penthouses.png",
+				"APOLLO Core": "apollo_core.jpg",
+				"Seegson Communications": "communications.png",
+				"Engineering": "engineering.jpg",
+				"Freight Shipping": "freight_shipping.jpg",
+				"Gemini Exoplanet Solutions": "gemini.jpg",
+				"Lorenz Lobby": "lorenz_lobby.jpg",
+				"Project KG-348": "project_kg348.png",
+				"Reactor": "reactor.jpg",
+				"San Cristobal Medical Facility": "san_cristobal.jpg",
+				"Solomons Habitation": "solomons_galleria.jpg",
+				"Spaceflight Terminal": "spaceflight_terminal.jpg",
+				"Seegson Synthetics": "synthetics.png",
+				"Lower Transit": "transit.jpg",
+				"Upper Transit": "upper_transit.png"
+			}
+			var info={
+				"Penthouses": "Sevastopol's penthouses, located at the top of the Solomons Habitation Tower, are reserved for the richer inhabitants of the station. As well as spacious individual apartements, the area contains several lounges and even a private movie theater.",
+				"APOLLO Core": "The APOLLO Core is a high-security area. In the very center of the Core is the APOLLO AI itself, tasked with controlling transit, communications and the Working Joe androids. The area also houses the APOLLO servers.",
+				"Seegson Communications": "Seegson Communications handles external as well as internal communications. The area is maintained by a large number of Working Joe androids. Seegson Communications is roughly divided into two levels: the Monitoring Rooms, where all internal communications are monitored, and the Observation Deck, containing internal communications, comms control, the Sevastopol observatory, and an airlock which leads to the dishes outside Sevastopol.",
+				"Engineering": "Engineering takes up most of the bottom half of Sevastopol. Contained inside are coolant tunnels, waste management systems, orbital stabilizers, a workshop and a towing platform for ships. At the bottom of Lorenz Sys/Tech Spire is the Reactor. Most of the Engineering Deck has been shut off, but it is still maintained by a number of Working Joes.",
+				"Freight Shipping": "The Freight Shipping area contains all the necessary equipment and machinery (such as a cooling tower and a power generator) for the shipping of different items, such as the refined metal from Gemini Exoplanet Solutions. A tram brings you to the Lorenz Sys/Tech Spire.",
+				"Gemini Exoplanet Solutions": "In Gemini, rare metals from the gas giant KG-348 are processed. The process itself consists of multiple steps, including decontamination, ore synthesis, and quality control. Some research is also done there. Despite the decommission of the organisation, security remains online. A freight elevator takes you to the Project KG-348 laboratory.",
+				"Lorenz Lobby": "The Lorenz Sys/Tech Lobby consists a huge room containing a lounge and doubles as a hub leading to Seegson Communications and Gemini Exoplanet Solutions. Seegson Security's headquarters are also located here. The lower level contains tech support and Sevastopol's works archive. On the upper level is Sevastopol's huge server farm.",
+				"Project KG-348": "Project KG-348 is a small laboratory that researches hazardous materials, owned by Gemini Exoplanet Solutions. Part of the laboratory can be detached from the station itself.",
+				"Reactor": "The Reactor is a huge machine generating electricity for all of Sevastopol. The reactor is made up of two cores, which if needed can be overloaded and purged in the maintenance area below the reactor.",
+				"San Cristobal Medical Facility": "San Cristobal is the main medical facility and hospital of Sevastopol, maintained by both humans and androids. The facility is divided into two main areas: the Crisis Stabilization Unit (which houses the staff's rooms) and the Primary Care Floor (containing the main operating theater, morgue, ambulance bay and power plant), which is where the crisis in Sevastopol began. The facility is off limits for most residents of the station.",
+				"Solomons Habitation": "Solomons Habitation is a huge maze-like area containing many residences for Sevastopol's inhabitants and the Galleria shopping mall. The Colonial Marshal Bureau is located in this area. Most areas have been locked down, and members of Seegson Security patrol the mall.",
+				"Spaceflight Terminal": "The Spaceflight Terminal is the main docking area for ships in Sevastopol. It includes an area for departures, a baggage claim, as well as several shops and restaurants. This area has been closed to everyone for a few days now after a riot.",
+				"Seegson Synthetics": "Seegson Synthetics is where, among other things, the Working Joe androids are manufactured and stored. As well as the factory itself, the area contains maintenance rooms and a showroom. Seegson Synthetics has a secure transit route to the APOLLO Core.",
+				"Lower Transit": "Sevastopol's Lower Transit system connects the three main towers and the Engineering Deck. The Sci/Med tower contains the transit control room.",
+				"Upper Transit": "Sevastopol's Upper Transit system connects the Spaceflight Terminal, Solomons Habitation Tower, Lorenz Sys/Tech Spire, Seegson Synthetics and the APOLLO Core. Most of the system is inactive."
+			}
+			var missions={
+				"Penthouses": "-",
+				"APOLLO Core": "<b>13</b>",
+				"Seegson Communications": "<b>3, 4, 16</b>",
+				"Engineering": "<b>14</b>",
+				"Freight Shipping": "<b>2</b>",
+				"Gemini Exoplanet Solutions": "<b>10</b>",
+				"Lorenz Lobby": "<b>3, 10</b>",
+				"Project KG-348": "<b>10</b>",
+				"Reactor": "<b>14</b>",
+				"San Cristobal Medical Facility": "<b>5, 6, 15</b>",
+				"Solomons Habitation": "<b>9, 10, 11, 12, 17</b>",
+				"Spaceflight Terminal": "<b>2, 11, 17</b>",
+				"Seegson Synthetics": "<b>7, 12</b>",
+				"Lower Transit": "<b>3, 5, 8, 10, 12, 14, 15</b>",
+				"Upper Transit": "<b>17</b>"
+			}
+		</script>
+	</head>
+	<body>
+		<div class="main">
+			<!-- Image Map Generated by http://www.image-map.net/ -->
+			<img id="map" src="map.png" usemap="#image-map">
+
+			<map name="image-map">
+				<area target="" alt="Penthouses" title="Penthouses" href="javascript:set_info('Penthouses')" coords="268,377,264,487,489,504,485,428,436,425,429,399,402,370,382,310,313,332,314,350,302,361" shape="poly">
+				<area target="" alt="Solomons Habitation" title="Solomons Habitation" href="javascript:set_info('Solomons Habitation')" coords="267,491,261,644,167,671,72,960,282,969,341,872,386,870,417,888,537,888,559,791,399,781,409,628,452,626,450,653,475,657,499,632,512,516,398,498" shape="poly">
+				<area target="" alt="Freight Shipping" title="Freight Shipping" href="javascript:set_info('Freight Shipping')" coords="71,965,87,1080,260,1139,259,1249,384,1310,499,1238,499,1151,536,1066,478,1062,454,1035,418,1056,335,1061,283,983,197,975" shape="poly">
+				<area target="" alt="Spaceflight Terminal" title="Spaceflight Terminal" href="javascript:set_info('Spaceflight Terminal')" coords="348,874,285,971,331,1047,407,1055,448,1030,476,1054,528,1062,592,988,589,930,654,927,597,891" shape="poly">
+				<area target="" alt="Seegson Communications" title="Seegson Communications" href="javascript:set_info('Seegson Communications')" coords="758,447,1010,457,994,374,896,166,853,138,814,182" shape="poly">
+				<area target="" alt="Lorenz Lobby" title="Lorenz Lobby" href="javascript:set_info('Lorenz Lobby')" coords="754,456,718,504,713,687,678,760,880,758,896,454" shape="poly">
+				<area target="" alt="APOLLO Core" title="APOLLO Core" href="javascript:set_info('APOLLO Core')" coords="901,456,883,761,1073,757,1072,678,1056,632,1043,621,1045,563,1035,497,1005,477,1017,457" shape="poly">
+				<area target="" alt="Project KG-348" title="Project KG-348" href="javascript:set_info('Project KG-348')" coords="731,863,702,889,545,885,545,860,616,792,696,794" shape="poly">
+				<area target="" alt="Gemini Exoplanet Solutions" title="Gemini Exoplanet Solutions" href="javascript:set_info('Gemini Exoplanet Solutions')" coords="803,792,793,879,721,882,721,1009,742,1033,654,1116,583,1112,548,1045,596,988,595,934,654,926,602,891,703,889,706,795" shape="poly">
+				<area target="" alt="Reactor" title="Reactor" href="javascript:set_info('Reactor')" coords="744,1009,1011,1012,1001,1235,904,1296,785,1216,785,1106,748,1099" shape="poly">
+				<area target="" alt="Engineering" title="Engineering" href="javascript:set_info('Engineering')" coords="723,1008,1056,1023,1081,976,1112,1097,1181,1387,1314,1462,1459,1391,1509,1099,1557,1011,1513,771,1449,747,1183,743,1176,907,1086,902,1081,797,810,792,801,882,724,886" shape="poly">
+				<area target="" alt="San Cristobal Medical Facility" title="San Cristobal Medical Facility" href="javascript:set_info('San Cristobal Medical Facility')" coords="1097,740,1442,742,1453,467,1156,464,1153,640,1115,647" shape="poly">
+				<area target="" alt="Seegson Synthetics" title="Seegson Synthetics" href="javascript:set_info('Seegson Synthetics')" coords="1150,456,1453,464,1457,267,1392,236,1356,132,1259,84,1215,176,1124,182,1112,317,1163,318" shape="poly">
+				<area target="" alt="Lower Transit" title="Lower Transit" href="javascript:set_info('Lower Transit')" coords="412,626,402,778,1083,794,1089,896,1172,903,1177,749,1083,742,1080,763,547,754,547,647" shape="poly">
+				<area target="" alt="Upper Transit" title="Upper Transit" href="javascript:set_info('Upper Transit')" coords="434,395,758,411,748,442,437,422" shape="poly">
+				<area target="" alt="Upper Transit" title="Upper Transit" href="javascript:set_info('Upper Transit')" coords="1021,477,1041,494,1143,474,1142,449" shape="poly">
+			</map>
+		</div>
+		<div class="side">
+			<h1 id="area">Click on an area</h1>
+			<image id="image" src="" height="auto" width="300px"/>
+			<p id="info"/>
+			<h2>Missions</h2>
+			<p id="missions"/>
+			<h2>Map modes</h2>
+			<input type="radio" name="mode" value="areas" onclick="set_map('areas')" checked="checked">Areas
+			<input type="radio" name="mode" value="transit" onclick="set_map('transit')">Transit
+			<input type="radio" name="mode" value="items" onclick="set_map('items')">Items
+			<br>
+			<h2>Links</h2>
+			<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=402866213">How to get around Sevastopol</a> helped me with making the transit map and writing the descriptions of the areas.</p>
+			<br>
+			<p>The <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=336396377">All Collectibles</a> guide helped with the locations of the different items and Nostromo logs.</p>
+			<br>
+			<p>The <a href="https://www.artstation.com/artwork/Yy6nX">base map</a> is by Brad Wright and can also be found in The Art of Sevastopol.</p>
+		</div>
+	</body>
+</html>
