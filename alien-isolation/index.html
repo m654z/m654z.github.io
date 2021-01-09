@@ -132,20 +132,13 @@
 					"item_map.png",
 					"transit_map.png"
 				];
-				var loaded_imgs = 0;
-				var temp_imgs = new Array();
-				for(i = 0; i < files.length; i++)
-				{
-					loaded_imgs[i] = new Image();
-					loaded_imgs[i].src = files[i];
-					loaded_imgs[i].onload = () => {
-						loaded_imgs++;
-						if(loaded_imgs == files.length)
-						{
-							alert("Page loaded!");	
-						}
-					}
-				}
+				files.forEach(function(image){
+					var img = document.createElement("img");
+					img.src = image;
+					document.body.appendChild(img);
+				});
+				document.getElementById("img").style.display = "none";
+				alert("Finished loading!");
 			}
 			preload();
 		</script>
