@@ -13,6 +13,7 @@
 				overflow-x: hidden;
 				padding-top: 20px;
 				padding-left: 5px;
+				background-color: #ffffff;
 			}
 			
 			.main {
@@ -110,37 +111,6 @@
 				"Lower Transit": "<b>3, 5, 8, 10, 12, 14, 15</b>",
 				"Upper Transit": "<b>17</b>"
 			}
-			preload = function()
-			{
-				files = [
-					"images/penthouses.png",
-					"images/apollo_core.jpg",
-					"images/communications.png",
-				 	"images/engineering.jpg",
-					"images/freight_shipping.jpg",
-					"images/gemini.jpg",
-					"images/lorenz_lobby.jpg",
-					"images/project_kg348.png",
-					"images/reactor.jpg",
-					"images/san_cristobal.jpg",
-					"images/solomons_galleria.jpg",
-					"images/spaceflight_terminal.jpg",
-					"images/synthetics.png",
-					"images/transit.jpg",
-					"images/upper_transit.png",
-					"map.png",
-					"item_map.png",
-					"transit_map.png"
-				];
-				files.forEach(function(image){
-					var img = document.createElement("img");
-					img.src = image;
-					document.body.appendChild(img);
-				});
-				document.getElementById("img").style.display = "none";
-				alert("Finished loading!");
-			}
-			preload();
 		</script>
 	</head>
 	<body>
@@ -177,6 +147,7 @@
 			<input type="radio" name="mode" value="areas" onclick="set_map('areas')" checked="checked">Areas
 			<input type="radio" name="mode" value="transit" onclick="set_map('transit')">Transit
 			<input type="radio" name="mode" value="items" onclick="set_map('items')">Items
+			<p>The map images may take a moment to load.</p>
 			<br>
 			<h2>Links</h2>
 			<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=402866213">How to get around Sevastopol</a> helped me with making the transit map and writing the descriptions of the areas.</p>
@@ -184,6 +155,9 @@
 			<p>The <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=336396377">All Collectibles</a> guide helped with the locations of the different items and Nostromo logs.</p>
 			<br>
 			<p>The <a href="https://www.artstation.com/artwork/Yy6nX">base map</a> is by Brad Wright and can also be found in The Art of Sevastopol.</p>
+			<br>
+			<h2>Contact</h2>
+			<p>Feel free to contact me on Reddit (/u/m654zy) or Discord (m654#0070) for any enquiries or suggestions!</p>
 		</div>
 	</body>
 </html>
