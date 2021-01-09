@@ -112,20 +112,42 @@
 			}
 			preload = function()
 			{
-				for(var image_name in images)
+				files = [
+					"images/penthouses.png",
+					"images/apollo_core.jpg",
+					"images/communications.png",
+				 	"images/engineering.jpg",
+					"images/freight_shipping.jpg",
+					"images/gemini.jpg",
+					"images/lorenz_lobby.jpg",
+					"images/project_kg348.png",
+					"images/reactor.jpg",
+					"images/san_cristobal.jpg",
+					"images/solomons_galleria.jpg",
+					"images/spaceflight_terminal.jpg",
+					"images/synthetics.png",
+					"images/transit.jpg",
+					"images/upper_transit.png",
+					"map.png",
+					"item_map.png",
+					"transit_map.png"
+				];
+				var loaded_imgs = 0;
+				var temp_imgs = new Array();
+				for(i = 0; i < files.length; i++)
 				{
-					var img = new Image();
-					img.src = "images/"+images[image_name];
+					loaded_imgs[i] = new Image();
+					loaded_imgs[i].src = files[i];
+					loaded_imgs[i].onload = () => {
+						loaded_imgs++;
+						if(loaded_imgs == files.length)
+						{
+							alert("Page loaded!");	
+						}
+					}
 				}
-				var img2 = new Image();
-				img2.src = "map.png";
-				img2.src = "transit_map.png";
-				img2.src = "item_map.png";
 			}
-			window.onload = function()
-			{
-				preload();
-			}
+			preload();
 		</script>
 	</head>
 	<body>
