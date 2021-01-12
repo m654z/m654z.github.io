@@ -13,6 +13,7 @@
 				overflow-x: hidden;
 				padding-top: 20px;
 				padding-left: 5px;
+				background-color: #ffffff;
 			}
 			
 			.main {
@@ -76,6 +77,18 @@
 				"Lower Transit": "transit.jpg",
 				"Upper Transit": "upper_transit.png"
 			}
+			preload = function()
+			{
+				for(var image_name in images)
+				{
+					var img = new Image();
+					img.src = "images/"+images[image_name];
+				}
+				var img2 = new Image();
+				img2.src = "map.png";
+				img2.src = "transit_map.png";
+				img2.src = "item_map.png";
+			}
 			var info={
 				"Penthouses": "Sevastopol's penthouses, located at the top of the Solomons Habitation Tower, are reserved for the richer inhabitants of the station. As well as spacious individual apartements, the area contains several lounges and even a private movie theater.",
 				"APOLLO Core": "The APOLLO Core is a high-security area. In the very center of the Core is the APOLLO AI itself, tasked with controlling transit, communications and the Working Joe androids. The area also houses the APOLLO servers.",
@@ -110,6 +123,7 @@
 				"Lower Transit": "<b>3, 5, 8, 10, 12, 14, 15</b>",
 				"Upper Transit": "<b>17</b>"
 			}
+			preload();
 		</script>
 	</head>
 	<body>
@@ -147,12 +161,15 @@
 			<input type="radio" name="mode" value="transit" onclick="set_map('transit')">Transit
 			<input type="radio" name="mode" value="items" onclick="set_map('items')">Items
 			<br>
-			<h2>Links</h2>
+			<h2>Links and credits</h2>
 			<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=402866213">How to get around Sevastopol</a> helped me with making the transit map and writing the descriptions of the areas.</p>
 			<br>
 			<p>The <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=336396377">All Collectibles</a> guide helped with the locations of the different items and Nostromo logs.</p>
 			<br>
 			<p>The <a href="https://www.artstation.com/artwork/Yy6nX">base map</a> is by Brad Wright and can also be found in The Art of Sevastopol.</p>
+			<br>
+			<h2>Contact</h2>
+			<p>Feel free to message me on Reddit (/u/m654zy) or Discord (m654#0070) for any enquiries or suggestions!
 		</div>
 	</body>
 </html>
