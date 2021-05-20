@@ -1,21 +1,42 @@
 <!DOCTYPE html>
-<!-- ayy lmao -->
 <html>
-<head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta charset="utf-8">
-	<title>ForumQuest Map</title>
-	<script type="text/javascript" src="viewer.js"></script>
-	<style>
-		.p {
-			font-family: Arial, Calibri, sans-serif;
-		}
-	</style>
-</head>
-<body onload="viewer.load('viewerDiv', 'untitled.xml', 'untitled.offline.xml.js', 'untitled.js', {x:0, y:0, zoom:100, controls:'zoom_buttons'})">
-	<center>
-		<div id="viewerDiv" style="width:1000px; height:800px; border:solid 2px #000000; padding:0;">&nbsp;</div>
-		<p><b>Drag the map to pan around. Mouse over an icon to view more info.</b></p>
-	</center>
-</body>
+	<head>
+		<title>ForumQuest</title>
+		<style>
+			#content {
+				width: 70%;
+				min-width: 50%;
+				height: 100%;
+				background-color: #DEDEDE
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			p {
+				margin: 0;
+				padding: 0;
+			}
+			a {
+				color: blue;
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+			<div id="content">
+				<img src="logo.png"/>
+				<br>
+				<div style="max-width:800px;">
+					<img src="images/1.png"/>
+				</div>
+				<br>
+				<a href="comic.html" style="font-size:32px;">>> Read ForumQuest</a>
+				<br><br>
+				<a href="archive.html" style="font-size:24px;">>> ForumQuest Archive</a>
+				<br><br>
+				<p><i>A webcomic by m654</i></p>
+			</div>
+		</center>
+	</body>
 </html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ForumQuest</title>
+		<style>
+			#content {
+				width: 70%;
+				min-width: 50%;
+				height: 100%;
+				background-color: #DEDEDE
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			p {
+				margin: 0;
+				padding: 0;
+			}
+			a {
+				color: blue;
+			}
+		</style>
+		<script type="text/javascript" src="panels.js"></script>
+		<script>
+			window.onload = function() {
+				var list = document.getElementById("archive");
+				
+				Object.entries(panels).forEach((panel) => {
+					var item = document.createElement("p");
+					item.innerHTML = panel[0] + ": <b>" + panel[1]["date"] + "</b> " + panel[1]["title"];
+					list.appendChild(item);
+				});
+			}
+		</script>
+	</head>
+	<body>
+		<center>
+			<div id="content">
+				<img src="logo.png"/>
+				<div style='text-align:left'>
+					<br>
+					<a href="index.html" style="font-size:24px;"><< Back</a>
+					<br>
+					<div id="archive"></div>
+				</div>
+			</div>
+		</center>
+	</body>
+</html>

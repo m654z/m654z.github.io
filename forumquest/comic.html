@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ForumQuest</title>
+		<style>
+			#content {
+				width: 70%;
+				min-width: 50%;
+				height: 100%;
+				background-color: #DEDEDE
+			}
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			a.disabled {
+				pointer-events: none;
+				cursor: default;
+			}
+			a {
+				color: blue;
+			}
+			input, button {
+				margin: 0;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="panels.js"></script>
+		<script>
+			current_comic = 1;
+			
+			window.onload = function() {
+				$("#video_panel").hide().siblings("#panel").show();
+			}
+
+			function get_comic(id) {
+				if(id > 0)
+				{
+					current_comic = id;
+					
+					// If you've reached the end of the comic
+					if(id == Object.keys(panels).length)
+					{
+						document.getElementById("next_comic").style.visibility = "hidden";
+					}
+					else
+					{
+						document.getElementById("next_comic").style.visibility = "visible";
+						document.getElementById("next_comic").innerHTML = panels[id+1]["title"]; // Set link text to the title of the next panel
+					}
+					
+					document.getElementById("title").innerHTML = panels[id]["title"]; // Set title
+					document.getElementById("text").innerHTML = panels[id]["text"]; // Set text
+					
+					// If the panel is a video
+					if(panels[id]["type"] == ".mp4")
+					{
+						$("#panel").hide().siblings("#video_panel").show();
+						document.getElementById("video_panel").src = "images/" + id + ".mp4";
+					}
+					else
+					{
+						$("#video_panel").hide().siblings("#panel").show();
+						document.getElementById("panel").src = "images/" + id + panels[id]["type"];
+					}
+					
+					document.getElementById("panel_id").innerHTML = current_comic;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<center>
+			<div id="content">
+				<h1 id="title">ForumQuest</h1>
+				
+				<br>
+				<div style="max-width:800px;">
+					<img id="panel" src="images/1.png"/>
+					<video id="video_panel" style="max-height:600px;max-width:800px;" controls/>
+				</div>
+				<br>
+				<p id="text">You wake up in an unfamiliar <b>desert</b> with no recollection of who you are nor any idea how you got here. The sea of shimmering sand seems to stretch endlessly, and there's certainly no sign of civilization other than a solitary <b>signpost</b>. There are <b>mountains</b> in the far distance. <br>What do you do?</p>
+				<a id="next_comic" href="#" onclick="get_comic(current_comic+1);" style="font-size:24px;">>> Examine signpost</a>
+				<br>
+				<br>
+				<a id="prev_comic" href="#" onclick="get_comic(current_comic-1);"style="font-size:12px;"><< Back</a>
+				<br>
+				<a id="newest_comic" href="#" onclick="get_comic(Object.keys(panels).length);" style="font-size:12px">>> Newest</a>
+				<br>
+				<p id="panel_id">1</p>
+			</div>
+			<br>
+			<form>
+				<input type="text" id="jumpto">
+				<button type="button" onclick="get_comic(parseInt(document.getElementById('jumpto').value));document.getElementById('jumpto').value='';">Jump to panel</button>
+			</form>
+		</center>
+	</body>
+</html>
