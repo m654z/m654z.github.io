@@ -418,7 +418,7 @@ panels = {
 	},
 	70: {
 		"title": ">> Force hors to sign the letter",
-		"text": "You threaten <span style='color:#8e44ad'><b>hors</b></span> with <span style='color:#2ecc71'><b>Chekhov's Gun</b></span> and tell it to sign the paper. The <span style='color:#2ecc71'><b>gun</b></span>, however, jams. Looks like it's not ready to go off yet.<br>Also, horses can't write, silly!",
+		"text": "You threaten <span style='color:#8e44ad'><b>hors</b></span> with <span style='color:#2ecc71'><b>Chekhov's Gun</b></span> and tell it to sign the paper. The <span style='color:#2ecc71'><b>gun</b></span>, however, jams. Looks like it's not ready to go off yet.<br>Also, horses can't write!",
 		"type": ".png",
 		"date": "9/2/2020"
 	},
@@ -864,66 +864,198 @@ panels = {
 		"title": ">> Continue",
 		"text": "",
 		"type": ".png",
-		"date": "1/30/2020"
+		"date": "1/30/2021"
 	},
 	145: {
 		"title": ">> Next",
 		"text": "Oh yeah, apparently this guy still exists. With the sudden <b>Black Hat</b> intermission out of the way, we can finally continue Chapter II.<br>You have just escaped a <b>mysterious alien dimension</b>. However, you've hardly had any time to catch a breather, because you've landed right into the midst of a group of <span style='color:#8e44ad'><b>clipart dargons</b></span>!",
 		"type": ".png",
-		"date": "1/30/2020"
+		"date": "1/30/2021"
 	},
 	146: {
 		"title": ">> Talk to the dragon",
 		"text": "You're guessing it's a long way to <b>Left</b>. Maybe one of these drago- uh, I nean <span style='color:#8e44ad'><b>dargons</b></span> is friendly enough to fly you there? You walk up to the green one and shout at it.",
 		"type": ".png",
-		"date": "2/2/2020"
+		"date": "2/2/2021"
 	},
 	147: {
 		"title": ">> Next",
 		"text": "You narrowly avoid being incinerated. Clearly, this one isn't too happy with your presence.",
 		"type": ".gif",
-		"date": "2/2/2020"
+		"date": "2/2/2021"
 	},
 	148: {
 		"title": ">> Next",
 		"text": "You quickly retreat to a safer location, where you're contacted by... oh great, it's this guy again.<br>" + spoiler_button + "<br><span style='color:#777777'>???: Woah, cutting it close there. What are you doing?</span><br>You: I thought I'd be able to fly one of these things. Guess not.<br><span style='color:#777777'>???: Uh, do you even know where you're going?</span><br>You: I'm heading to Left to finally file a restraining order against the <b>alien space bats</b>. Assuming the bank isn't a front for the mob, of course.<br><span style='color:#777777'>???: I need your help with something first, remember? And what about the <b>Black Hats</b>? I doubt they'd be too pleased if you gave up in the middle of a mission.</span><br>You: Thanks to the money you gave me I should be able to get the hell out of this place and disappear before they can find me.<br><span style='color:#777777'>???: Look, you're going to Left anyway. All I need for you to do is pay someone a quick visit. That's it! Do that, and I'll give you your money back.</span><br>You: Give me my- what?</div>",
 		"type": ".png",
-		"date": "2/2/2020"
+		"date": "2/2/2021"
 	},
 	149: {
 		"title": ">> Check bank account",
 		"text": spoiler_button + "<br>You: Hey, that's not... Ah, fine, I'll do it!<br><span style='color:#777777'>???: Great, I'll mark the location on your map.</span><br>You: Map?<br><span style='color:#777777'>???: Yeah, the map. You didn't know about it?</div>",
 		"type": ".png",
-		"date": "2/2/2020"
+		"date": "2/2/2021"
 	},
 	150: {
 		"title": ">> [I] Open map",
 		"text": "<a href='interactive/map/index.html' target='_blank' rel='noopener noreferrer'>Click to open map</a>",
 		"type": ".png",
-		"date": "2/2/2020"
+		"date": "2/2/2021"
 	},
 	151: {
 		"title": ">> Next",
 		"text": spoiler_button + "<br>You: Looks like I've been heading in the wrong direction... I'm definitely not going to make it to Left on foot.<br><span style='color:#777777'>???: You mentioned wanting to ride one of those dragons?</span><br>You: That was before I was nearly burned alive by one of them. You think it's possible?<br><span style='color:#777777'>???: Sure, assuming you've got the right skill perks. Have you checked your skill tree lately?</span><br>You: Uh...<br><span style='color:#777777'>???: Don't tell me you didn't know about the skill tree.</span><br>You: ...<br><span style='color:#777777'>???: You've got to be kidding me.</span></div>",
 		"type": ".gif",
-		"date": "2/4/2020"
+		"date": "2/4/2021"
 	},
 	152: {
 		"title": ">> Open skill tree",
 		"text": "This would have been useful in the <b>alien dimension</b>...",
 		"type": ".png",
-		"date": "2/4/2020"
+		"date": "2/4/2021"
 	},
 	153: {
 		"title": ">> Next",
 		"text": "You search for any skill categories relating to <b>dragons</b>, and immediately find over 300,000 of them. You scroll down to the <b>Dragon Riding</b> section, choose the <span style='color:#8e44ad'><b>clipart dargon</b></span> species and obtain the first skill perk.",
 		"type": ".png",
-		"date": "2/6/2020"
+		"date": "2/6/2021"
 	},
 	154: {
 		"title": ">> Next",
 		"text": "Riding a dragon is no use if you can't tell it where to go! For your next skill point, you choose the first perk in the <b>Dragon Language</b> tree.",
 		"type": ".png",
-		"date": "2/6/2020"
+		"date": "2/6/2021"
+	},
+	155: {
+		"title": ">> Speak to dragon",
+		"text": "You decide to save your last skill point. Could come in handy in a pinch, after all.<br>With your new-found abilities, you command the nearest <span style='color:#8e44ad'><b>dargon</b></span> to carry you to <b>Left</b>.",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	156: {
+		"title": ">> Next",
+		"text": "Slowly, the <span style='color:#8e44ad'><b>dargon</b></span> turns to face you. The two of you have a stare-off for what seems like an eternity.<br>You consider making a break for it, but quickly realize there's no running from this situation.",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	157: {
+		"title": ">> Next",
+		"text": "It appears your fears were unfounded.",
+		"type": ".gif",
+		"date": "5/21/2021"
+	},
+	158: {
+		"title": ">> Next",
+		"text": spoiler_button + "<br>You: So I've been wondering, how did you find me in the first place? And why did you contact me?<br><span style='color:#777777'>???: Well, like I said, I need your help with something... I've been told there's some sort of magical object hidden somewhere in your dimension. Obviously I can't travel there myself, so I had to get someone else to do it.</span><br>You: What kind of magical object are we talking about here?<br><span style='color:#777777'>???: I'm... not entirely sure. I believe it's in the shape of an <b>orb</b>.</span><br>You: That's not a lot to go off of.<br><span style='color:#777777'>???: I've marked its exact location on your map. You'd have to be braindead to not be able to find it. So I'm not too thrilled about your chances.</span><br>",
+		"type": ".gif",
+		"date": "5/21/2021"
+	},
+	159: {
+		"title": ">> Next",
+		"text": spoiler_button + "<br>You: Sure. But why do you need me in particular? Why not someone who, y'know, lives in Left?<br><span style='color:#777777'>???: The simple answer is that contacting someone across dimensions is pretty damn hard, even with modern tech. The <b>alien dimension</b> you escaped is something called an <b>intermediary dimension</b>, somewhere where spacetime is thinner than usual, therefore it's easier to establish a transdimensional link. As soon as I found out someone had entered one of these dimensions, I knew I'd be able to contact them. But I'd rather not bore you. We can't have you jumping off that dragon to escape my inane metaphysical ramblings.</span><br>You: Makes sense, I guess. Hold on...<br><span style='color:#777777'>???: What?</span><br>You: Earlier, you mentioned those <b>Black Hat</b> guys. How do you know about them if you've only been tracking me since I entered the <b>alien dimension</b>?<br><span style='color:#777777'>???: Uh... alright, you got me. What I said still applies, but there <i>is</i> a reason I contacted you in particular. It has something to do with time travel, a corrupt megacorporation, and a crazy guy on the internet, so I'm not really going to go into detail. Just focus on getting to Left, and I'll stop bothering you.</span><br>You: Hey, you can't just...<br>You: Are you still there?<br>You: ...<br>You: Thank god.</div>",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	160: {
+		"title": ">> Check map",
+		"text": "Wait a minute... it looks like you've overshot. You're beginning to regret not investing your last point further into the <b>Dragon Language</b> tree.",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	161: {
+		"title": ">> Descend",
+		"text": "",
+		"type": ".gif",
+		"date": "5/21/2021"
+	},
+	162: {
+		"title": ">> Next",
+		"text": "You arrive near a small desert town. According to your map, this is <b>Bahlarat</b>. Before attempting another long and exhausting flight to Left, you decide to stretch your legs a bit and explore.",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	163: {
+		"title": ">> Explore",
+		"text": "You come across a large statue of a <b>dragon</b>, of the common variety. It's terrifyingly realistic, and you feel as if it could come alive at any moment.",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	164: {
+		"title": ">> Look around",
+		"text": "",
+		"type": ".gif",
+		"date": "5/21/2021"
+	},
+	165: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	166: {
+		"title": ">> Enter shop",
+		"text": "You enter the <b>shop</b>. Lining the wall are shelves with strange, <b>ancient artifacts</b>. Behind the counter is the first person you've seen in this town.<br>" + spoiler_button + "<br><span style='color:#755656'>Merchant: Welcome to Bahlarat Artifacts! Feel free to browse our collection of all things mysterious and arcane.</span></div>",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	167: {
+		"title": ">> Talk to merchant",
+		"text": "The <b>merchant</b> presents to you several <b>mysterious objects</b>, including <b>Occam's Razor</b>, <b>Roko's Basilisk</b>, and the <b>literal Declaration of Independence</b>.",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	168: {
+		"title": ">> Next",
+		"text": "As much as you'd like to buy all of these, you don't have any money! You explain your predicament to the merchant.<br>" + spoiler_button + "<br>You: These look fascinating, but I'm all out of money.<br><span style='color:#755656'>Merchant: Hmm... perhaps you would be willing to part with <b>Chekhov's Gun</b>? I have been looking for it for a very long time.</span><br>You: How do you know about that?<br>You: You know what, nevermind. Nothing in this dimension makes sense, so I'm not even going to bother.</div>",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	169: {
+		"title": ">> Sell Chekhov's Gun",
+		"text": "You reluctantly agree to sell the <span style='color:#2ecc71'><b>gun</b></span>. It's practically useless anyway.",
+		"type": ".gif",
+		"date": "5/21/2021"
+	},
+	170: {
+		"title": ">> Next",
+		"text": "The merchant gives you a hefty sum of money in exchange for the <span style='color:#2ecc71'><b>gun</b></span>: $10,000.<br><span style='color:#2ecc71'><b>Chekhov's Gun</b></span> will never be seen again and will have absolutely no plot significance going forward.",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	171: {
+		"title": ">> Buy Declaration of Independence",
+		"text": "You decide to buy the <b>Declaration of Independence</b>. You have no idea why it's significant, or what the hell a 'United States of America' is, but you're just sure there's a secret message hidden somewhere on it.<br>You thank the merchant and go on your way.",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	172: {
+		"title": ">> Next",
+		"text": "If the secret message is written in invisible ink, you should be able to reveal it with some <b>lemon juice</b>. You explore and find a <b>marketplace</b>. Deserted, like the rest of this town.",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	173: {
+		"title": ">> Look for lemon",
+		"text": "Aha! Here we go.<br>Hmm, these lemons look fresh. The inhabitants of this town can't have been gone for long.",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	174: {
+		"title": ">> Look for secret message",
+		"text": "You carefully squeeze a lemon slice, coating the Declaration with juice.",
+		"type": ".gif",
+		"date": "5/21/2021"
+	},
+	175: {
+		"title": ">> Next",
+		"text": "There is no secret message, and you have just ruined a priceless 250-year-old document. Good job!",
+		"type": ".png",
+		"date": "5/21/2021"
+	},
+	176: {
+		"title": ">> Next",
+		"text": "You throw the now irreparably damaged Declaration across the marketplace.",
+		"type": ".gif",
+		"date": "5/21/2021"
 	}
 }
