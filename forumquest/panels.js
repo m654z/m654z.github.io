@@ -1057,5 +1057,47 @@ panels = {
 		"text": "You throw the now irreparably damaged Declaration across the marketplace.",
 		"type": ".gif",
 		"date": "5/21/2021"
+	},
+	177: {
+		"title": ">> Return to shop",
+		"text": "",
+		"type": ".png",
+		"date": "5/22/2021"
+	},
+	178: {
+		"title": ">> Demand a refund",
+		"text": "You slam the door open and barge into the shop to demand a refund on the <b>Declaration</b>. You were expecting to discover a hidden message that would lead you to some priceless treasure! Alas, that was not the case, and now you want your money back.<br>Hold on, where's the merchant? This entire place is cleared out.<br>Looks like you won't be getting your money back today.",
+		"type": ".png",
+		"date": "5/22/2021"
+	},
+	179: {
+		"title": ">> Return to dragon",
+		"text": "This was a colossal waste of time.<br>You return to the outskirts of the town, where the <span style='color:#8e44ad'><b>dargon</b></span> has been patiently awaiting your return.",
+		"type": ".png",
+		"date": "5/22/2021"
+	},
+	180: {
+		"title": ">> Spend last skill point",
+		"text": "You're ready to get this over with. Not wanting to risk another deviation from the plan, you invest your last skill point into the <b>Dragon Language</b> tree. This should allow you to issue more specific commands to the <span style='color:#8e44ad'><b>dargon</b></span>.",
+		"type": ".png",
+		"date": "5/22/2021"
+	},
+	181: {
+		"title": ">> Ascend",
+		"text": "",
+		"type": ".gif",
+		"date": "5/22/2021"
+	},
+	182: {
+		"title": ">> Next",
+		"text": "Day rapidly gives way to night as you continue your journey.",
+		"type": ".gif",
+		"date": "5/22/2021"
+	},
+	183: {
+		"title": ">> [S] Next",
+		"text": "Weaving through the cool air, you gaze over the endless wastes passing before you. Devoid of life, and utterly still. The moonlight does little to resist the enveloping darkness. This desert, the very embodiment of desolation and untouched by the flow of time, stretches beyond the horizon, broken only by a faint cluster of lights. This settlement has been your objective for the past one hundred and sixty-nine pages. You don't know what a page is. Or why you would be in one. But it feels about right.<br><br>Though only a day has passed since you started your journey, you had begun to think of reaching this point as some insurmountable task, amplified by every impediment and setback you suffered. But now, as you lay your eyes on this town, you feel something. Is it relief, for finally arriving at your destination? Frustration, that such an seemingly simple task had taken this long? Perhaps both. But above all, you feel small. As if you were a pawn in the game of some unseen puppeteer.<br><br>Welcome to <b>Left</b>.<br><br>You have a feeling it's going to be a long night.",
+		"type": ".mp4",
+		"date": "5/22/2021"
 	}
 }
