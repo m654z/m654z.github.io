@@ -502,7 +502,7 @@ panels = {
 	},
 	84: {
 		"title": ">> Next",
-		"text": "The <b>telepathic mystery man</b> contacts you yet again.<br>" + spoiler_button + "<br><span style='color:#777777'>???: I see you're having some trouble cracking that safe. Let's see... so far you've tried <b>6969</b> and <b>1337</b>. Here's a helpful hint: it's probably less obvious than that.</span><br>You: What do you want now?<br><span style='color:#777777'>???: Guessing the code would take forever. A computer could do it in a matter of minutes. If you want, I could write a program to brute-force it.</span><br>You: Let me guess, you'll do it if I agree to help you?<br><span style='color:#777777'>???: As a matter of fact, no.</span><br>You: Huh?<br><span style='color:#777777'>???: You heard me right! No strings attached. It wouldn't really be in my best interests to let you die, would it?</span><br>You: Alright, fine. But why do I need to agree to it? Can't you just do it anyway?<br><span style='color:#777777'>???: Thanks. The software I'm using to track you has a rather annoying feature that requires the target to give verbal or written consent before you alter something in their dimension. That's why I had to use the pyramid scheme invitation to establish this connection. It sucks, but that's just now how it works.</span><br>You: Fine. Do it, I guess.</div>",
+		"text": "The <b>telepathic mystery man</b> contacts you yet again.<br>" + spoiler_button + "<br><span style='color:#777777'>???: I see you're having some trouble cracking that safe. Let's see... so far you've tried <b>6969</b> and <b>1337</b>. Here's a helpful hint: it's probably less obvious than that.</span><br>You: What do you want now?<br><span style='color:#777777'>???: Guessing the code would take forever. A computer could do it in a matter of minutes. If you want, I could write a program to brute-force it.</span><br>You: Let me guess, you'll do it if I agree to help you?<br><span style='color:#777777'>???: As a matter of fact, no.</span><br>You: Huh?<br><span style='color:#777777'>???: You heard me right! No strings attached. It wouldn't really be in my best interests to let you die, would it?</span><br>You: Alright, fine. But why do I need to agree to it? Can't you just do it anyway?<br><span style='color:#777777'>???: Thanks. The software I'm using to track you has a rather annoying feature that requires the target to give verbal or written consent before you alter something in their dimension. That's why I had to use the pyramid scheme invitation to establish this connection. It sucks, but that's just not how it works.</span><br>You: Fine. Do it, I guess.</div>",
 		"type": ".png",
 		"date": "9/10/2020"
 	},
@@ -520,7 +520,7 @@ panels = {
 	},
 	87: {
 		"title": ">> Next",
-		"text": "The program continues running smoothly, albeit slower than you expected.<br>Suddenly, the skies seem to darken for no apparent reason. <span style='color:#8e44ad'><b>magic ghost hors</b></span> comes to you, staring directly into your soul as if in distress.<br>...well, it does that all the time, but this time it seems especially distressed. Something is not right.<br>" + spoiler_button + "You: Are you doing that?<br><span style='color:#777777'>???: You mean the sky? No, why would I do that?</span><br>You: I just figured it might have something to do with your program...<br><span style='color:#777777'>???: It doesn't. I wrote the code remember?</span></div>",
+		"text": "The program continues running smoothly, albeit slower than you expected.<br>Suddenly, the skies seem to darken for no apparent reason. <span style='color:#8e44ad'><b>magic ghost hors</b></span> comes to you, staring directly into your soul as if in distress.<br>...well, it does that all the time, but this time it seems especially distressed. Something is not right.<br>" + spoiler_button + "You: Are you doing that?<br><span style='color:#777777'>???: You mean the sky? No, why would I do that?</span><br>You: I just figured it might have something to do with your program...<br><span style='color:#777777'>???: It doesn't. I wrote the code, remember?</span></div>",
 		"type": ".gif",
 		"date": "9/18/2020"
 	},
@@ -1102,7 +1102,55 @@ panels = {
 	},
 	184: {
 		"title": ">> Next",
-		"text": "You have finally reached the town of <b>Left</b>. It's late at night, and the streets are deserted. The famed <b>Golden Pyramid</b> looms in the distance, almost beckoning you to explore it.<br>You check the note the leader of the <b>Black Hats</b> handed to you: <i>13 Main Street - Left</i>.<br>What do you do?",
+		"text": "You have finally reached the town of <b>Left</b>. It's late at night, and the streets are deserted. The famed <b>Golden Pyramid</b> looms in the distance, almost beckoning you to explore it.<br>You check the note the leader of the <b>Black Hats</b> handed to you: <i>13 Main Street - Left</i>.",
+		"type": ".png",
+		"date": "5/23/2021"
+	},
+	185: {
+		"title": ">> Next",
+		"text": "What was that?",
+		"type": ".gif",
+		"date": "5/23/2021"
+	},
+	186: {
+		"title": ">> Next",
+		"text": "You're beginning to think this was a terrible idea.",
+		"type": ".png",
+		"date": "5/23/2021"
+	},
+	187: {
+		"title": ">> Next",
+		"text": "You've been cornered by a group of <span style='color:#ffffff'><b>White Hats</b></span>! Surely they don't know about your involvement with the <b>Black Hats</b>?",
+		"type": ".png",
+		"date": "5/23/2021"
+	},
+	188: {
+		"title": ">> Next",
+		"text": spoiler_button + "<br>White Hat: You picked a bad time to get lost, buddy. We know about your involvement with the <b>Black Hats</b>.</div><br>You can't fight these guys, so you're pretty much doomed. Wait a minute...<br>What if...",
+		"type": ".png",
+		"date": "5/23/2021"
+	},
+	189: {
+		"title": ">> Use Chekhov's Gun",
+		"text": "You remember that you just sold <span style='color:#2ecc71'><b>Chekhov's Gun</b></span> not too long ago. Good going, genius!",
+		"type": ".gif",
+		"date": "5/23/2021"
+	},
+	190: {
+		"title": ">> Charge into battle with key",
+		"text": "Here goes nothing! Wielding the <b>key</b> you took from the house you burned down, you charge into ba-<br>oh.",
+		"type": ".gif",
+		"date": "5/23/2021"
+	},
+	191: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "5/23/2021"
+	},
+	192: {
+		"title": ">> Look around",
+		"text": "You appear to be in a <b>jail cell</b>. How are you ever going to get out of this predicament?",
 		"type": ".png",
 		"date": "5/23/2021"
 	}
