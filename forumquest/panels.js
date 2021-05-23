@@ -82,7 +82,7 @@ panels = {
 	},
 	14: {
 		"title": ">> Accept the offer",
-		"text": "You reluctantly accept the offer. The teller leads you into the <b>basement</b>. As it turns out, this bank is a front for a shadowy organization called the <b>Brotherhood of Black Hats</b>, called so because all members wear a <b>really awesome black hat</b>. For decades, a rival organization named the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span> (called so because all members wear a <span style='color:#ffffff'><b>really lame white hat</b></span>) has opposed them. But now, <b>the boss</b> believes he's on to something.<br>He suspects he's found a <span style='color:#ffffff'><b>White Hat</b></span> sleeper agent in <b>Left</b>, a town not far from here. Following a raid on a <span style='color:#ffffff'><b>White Hat</b></span> compound, they discovered a list of addresses belonging to members of the group. Most of them have been dealt with, but one remains.<br>The boss wants you to pay them a visit and extract any important documents on the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span>. He hands you a note and leaves you to your own devices.<br><i>13 Main Street - Left</i>)",
+		"text": "You reluctantly accept the offer. The teller leads you into the <b>basement</b>. As it turns out, this bank is a front for a shadowy organization called the <b>Brotherhood of Black Hats</b>, called so because all members wear a <b>really awesome black hat</b>. For decades, a rival organization named the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span> (called so because all members wear a <span style='color:#ffffff'><b>really lame white hat</b></span>) has opposed them. But now, <b>the boss</b> believes he's on to something.<br>He suspects he's found a <span style='color:#ffffff'><b>White Hat</b></span> sleeper agent in <b>Left</b>, a town not far from here. Following a raid on a <span style='color:#ffffff'><b>White Hat</b></span> compound, they discovered a list of addresses belonging to members of the group. Most of them have been dealt with, but one remains.<br>The boss wants you to pay them a visit and extract any important documents on the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span>. He hands you a note and leaves you to your own devices.<br><i>13 Main Street - Left</i>",
 		"type": ".png",
 		"date": "8/10/2020"
 	},
@@ -1099,5 +1099,11 @@ panels = {
 		"text": "Weaving through the cool air, you gaze over the endless wastes passing before you. Devoid of life, and utterly still. The moonlight does little to resist the enveloping darkness. This desert, the very embodiment of desolation and untouched by the flow of time, stretches beyond the horizon, broken only by a faint cluster of lights. This settlement has been your objective for the past one hundred and sixty-nine pages. You don't know what a page is. Or why you would be in one. But it feels about right.<br><br>Though only a day has passed since you started your journey, you had begun to think of reaching this point as some insurmountable task, amplified by every impediment and setback you suffered. But now, as you lay your eyes on this town, you feel something. Is it relief, for finally having arrived at your destination? Frustration, that such an seemingly simple task had taken this long? Perhaps both. But above all, you feel small. As if you were a pawn in the game of some unseen puppeteer.<br><br>Welcome to <b>Left</b>.<br><br>You have a feeling it's going to be a long night.",
 		"type": ".mp4",
 		"date": "5/22/2021"
+	},
+	184: {
+		"title": ">> Next",
+		"text": "You have finally reached the town of <b>Left</b>. It's late at night, and the streets are deserted. The famed <b>Golden Pyramid</b> looms in the distance, almost beckoning you to explore it.<br>You check the note the leader of the <b>Black Hats</b> handed to you: <i>13 Main Street - Left</i>.<br>What do you do?",
+		"type": ".png",
+		"date": "5/23/2021"
 	}
 }
