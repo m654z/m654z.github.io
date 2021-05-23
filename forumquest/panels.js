@@ -1126,7 +1126,7 @@ panels = {
 	},
 	188: {
 		"title": ">> Next",
-		"text": spoiler_button + "<br>White Hat: You picked a bad time to get lost, buddy. We know about your involvement with the <b>Black Hats</b>.</div><br>You can't fight these guys, so you're pretty much doomed. Wait a minute...<br>What if...",
+		"text": spoiler_button + "<br>White Hat: You picked a bad time to get lost, buddy. We know about your involvement with the <b>Black Hats</b>.</div><br><br>You can't fight these guys, so you're pretty much doomed. Wait a minute...<br>What if...",
 		"type": ".png",
 		"date": "5/23/2021"
 	},
