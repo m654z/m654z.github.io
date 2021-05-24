@@ -118,7 +118,7 @@ panels = {
 	},
 	20: {
 		"title": ">> Next",
-		"text": "After a long and exhausting ride across the desert, you come across a <b>well</b>. The water is surprisingly cold, and you happily take a long drink. You offer the <span style='color:#8e44ad'><b>hors</b></span> some, but as usual it just stares at your with a blank expression.",
+		"text": "After a long and exhausting ride across the desert, you come across a <b>well</b>. The water is surprisingly cold, and you happily take a long drink. You offer the <span style='color:#8e44ad'><b>hors</b></span> some, but as usual it just stares at you with a blank expression.",
 		"type": ".png",
 		"date": "8/12/2020"
 	},
@@ -1153,5 +1153,41 @@ panels = {
 		"text": "You appear to be in a <b>jail cell</b>. How are you ever going to get out of this predicament?",
 		"type": ".png",
 		"date": "5/23/2021"
+	},
+	193: {
+		"title": ">> Try the door",
+		"text": "You try the door.<br>...<br>Yeah, it's locked. You're not really sure what you were expecting.",
+		"type": ".png",
+		"date": "5/24/2021"
+	},
+	194: {
+		"title": ">> Examine poster",
+		"text": "It's a poster for <i>The Shawshank Redemption</i> starring Morgan Freeman. You've never seen the movie, but you're sure there's a topical joke to be made here.",
+		"type": ".png",
+		"date": "5/24/2021"
+	},
+	195: {
+		"title": ">> Examine other side of cell",
+		"text": "You go to the other side of the jail cell.<br>There's a table with a <b>hammer</b>, a <b>screwdriver</b>, and a roll of <b>duct tape</b>.",
+		"type": ".png",
+		"date": "5/24/2021"
+	},
+	196: {
+		"title": ">> Examine other poster",
+		"text": "It's a poster for <i>12 Angry Men</i>. Someone has drawn crude pictures of hats on the eponymous men.",
+		"type": ".png",
+		"date": "5/24/2021"
+	},
+	197: {
+		"title": ">> Add tools to inventory",
+		"text": "You add the <b>hammer</b>, <b>screwdriver</b>, and <b>duct tape</b> to your inventory. These could come in handy when breaking out later.",
+		"type": ".gif",
+		"date": "5/24/2021"
+	},
+	198: {
+		"title": ">> Add broken ladder to inventory",
+		"text": "Could you fix this ladder, somehow? You add it to your inventory, violently ejecting the <b>screwdriver</b>.",
+		"type": ".gif",
+		"date": "5/24/2021"
 	}
 }
