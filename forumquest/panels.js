@@ -1222,7 +1222,7 @@ panels = {
 	},
 	204: {
 		"title": ">> Throw hammer at poster",
-		"text": "Including <i>him</i>!",
+		"text": "",
 		"type": ".gif",
 		"date": "5/25/2021"
 	},
