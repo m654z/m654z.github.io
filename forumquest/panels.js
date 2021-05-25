@@ -94,7 +94,7 @@ panels = {
 	},
 	16: {
 		"title": ">> Add item to inventory",
-		"text": "You add the <span style='color:#c0392b'><b>Makeshift Dagger</b></span> to your inventory, right next to the <b>key</b> you obtained from <b>the boss'</b> house. The one you burned down. Let's hope he doesn't find out about that.",
+		"text": "You add the <span style='color:#c0392b'><b>Makeshift Dagger</b></span> to your inventory, right next to the <b>key</b> you obtained from <b>the boss'</b> house. The one you burned down.",
 		"type": ".png",
 		"date": "8/11/2020"
 	},
@@ -1189,5 +1189,53 @@ panels = {
 		"text": "Could you fix this ladder, somehow? You add it to your inventory, violently ejecting the <b>screwdriver</b>.",
 		"type": ".gif",
 		"date": "5/24/2021"
+	},
+	199: {
+		"title": ">> Add other half of ladder to inventory",
+		"text": "You add the other half of the broken ladder to your inventory, this time carefully removing the <b>hammer</b> beforehand.",
+		"type": ".gif",
+		"date": "5/25/2021"
+	},
+	200: {
+		"title": ">> Fix ladder",
+		"text": "You duct tape the two halves together and lean the now-intact ladder against the wall. You should be able to reach the <b>vent</b> now.",
+		"type": ".png",
+		"date": "5/25/2021"
+	},
+	201: {
+		"title": ">> Unscrew vent cover",
+		"text": "You pick up the <b>hammer</b> and the <b>screwdriver</b> and climb up on the ladder to unscrew the vent cover. Perhaps you'll be able to escape through the ventilation system?",
+		"type": ".png",
+		"date": "5/25/2021"
+	},
+	202: {
+		"title": ">> Next",
+		"text": "It's a picture of a vent glued to the wall.",
+		"type": ".png",
+		"date": "5/25/2021"
+	},
+	203: {
+		"title": ">> Stare at poster",
+		"text": "You stare at the movie poster. This guy's self-satisfied pose is making you irrationally angry.<br>This is a conspiracy, you say. One big, damn conspiracy! And everyone's in on it!",
+		"type": ".png",
+		"date": "5/25/2021"
+	},
+	204: {
+		"title": ">> Throw hammer at poster",
+		"text": "Including <i>him</i>!",
+		"type": ".gif",
+		"date": "5/25/2021"
+	},
+	205: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "5/25/2021"
+	},
+	206: {
+		"title": ">> Tear poster off wall",
+		"text": "There's a <b>secret compartment</b> behind the poster! You find a <b>key</b>.",
+		"type": ".png",
+		"date": "5/25/2021"
 	}
 }
