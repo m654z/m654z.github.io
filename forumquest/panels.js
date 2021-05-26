@@ -82,7 +82,7 @@ panels = {
 	},
 	14: {
 		"title": ">> Accept the offer",
-		"text": "You reluctantly accept the offer. The teller leads you into the <b>basement</b>. As it turns out, this bank is a front for a shadowy organization called the <b>Brotherhood of Black Hats</b>, called so because all members wear a <b>really awesome black hat</b>. For decades, a rival organization named the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span> (called so because all members wear a <span style='color:#ffffff'><b>really lame white hat</b></span>) has opposed them. But now, <b>the boss</b> believes he's on to something.<br>He suspects he's found a <span style='color:#ffffff'><b>White Hat</b></span> sleeper agent in <b>Left</b>, a town not far from here. Following a raid on a <span style='color:#ffffff'><b>White Hat</b></span> compound, they discovered a list of addresses belonging to members of the group. Most of them have been dealt with, but one remains.<br>The boss wants you to pay them a visit and extract any important documents on the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span>. He hands you a note and leaves you to your own devices.<br><i>13 Main Street - Left</i>",
+		"text": "You reluctantly accept the offer. The teller leads you into the <b>basement</b>. As it turns out, this bank is a front for a shadowy organization called the <b>Brotherhood of Black Hats</b>, so called because all members wear a <b>really awesome black hat</b>. For decades, a rival organization named the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span> (so called because all members wear a <span style='color:#ffffff'><b>really lame white hat</b></span>) has opposed them. But now, <b>the boss</b> believes he's on to something.<br>He suspects he's found a <span style='color:#ffffff'><b>White Hat</b></span> sleeper agent in <b>Left</b>, a town not far from here. Following a raid on a <span style='color:#ffffff'><b>White Hat</b></span> compound, they discovered a list of addresses belonging to members of the group. Most of them have been dealt with, but one remains.<br>The boss wants you to pay them a visit and extract any important documents on the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span>. He hands you a note and leaves you to your own devices.<br><i>13 Main Street - Left</i>",
 		"type": ".png",
 		"date": "8/10/2020"
 	},
@@ -1237,5 +1237,35 @@ panels = {
 		"text": "There's a <b>secret compartment</b> behind the poster! You find a <b>key</b>.",
 		"type": ".png",
 		"date": "5/25/2021"
+	},
+	207: {
+		"title": ">> Next",
+		"text": "<b>Sudden point of view change!</b><br><br>You are a member of the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span>, so called because you all wear a <span style='color:#ffffff'><b>really awesome white hat</b></span>. For decades, a rival organization called the <b>Brotherhood of Black Hats</b> has opposed your every move. But now, you believe you're on to something.<br>A <b>creepy bearded guy</b> tipped you off about a <b>Black Hat</b> agent here in Left. Sure enough, you found him skulking around a dark alleway and captured him. He could have critical intel on the <b>Black Hats</b>, so he'll need to be interrogated.<br>You enter the <span style='color:#ffffff'><b>White Hat</b></span> HQ. <b>The boss</b> isn't there, obviously. You've never actually seen him in person. None of you have.",
+		"type": ".png",
+		"date": "5/26/2021"
+	},
+	208: {
+		"title": ">> Examine display case",
+		"text": "Inside the display case, carefully placed on a blanket of velvet, is a <b>mysterious orb</b>. It's been here as long as you can remember, but you're not sure what it does. All you know is that <b>the boss</b> has taken a keen interest in it, so you've kept it safe for him.",
+		"type": ".png",
+		"date": "5/26/2021"
+	},
+	209: {
+		"title": ">> Next",
+		"text": "Looks like it's time to check on your prisoner.",
+		"type": ".png",
+		"date": "5/26/2021",
+	},
+	210: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "5/26/2021"
+	},
+	211: {
+		"title": ">> Enter cell",
+		"text": "",
+		"type": ".png",
+		"date": "5/26/2021"
 	}
 }
