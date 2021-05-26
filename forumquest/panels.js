@@ -1240,7 +1240,7 @@ panels = {
 	},
 	207: {
 		"title": ">> Next",
-		"text": "<b>Sudden point of view change!</b><br><br>You are a member of the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span>, so called because you all wear a <span style='color:#ffffff'><b>really awesome white hat</b></span>. For decades, a rival organization called the <b>Brotherhood of Black Hats</b> has opposed your every move. But now, you believe you're on to something.<br>A <b>creepy bearded guy</b> tipped you off about a <b>Black Hat</b> agent here in Left. Sure enough, you found him skulking around a dark alleway and captured him. He could have critical intel on the <b>Black Hats</b>, so he'll need to be interrogated.<br>You enter the <span style='color:#ffffff'><b>White Hat</b></span> HQ. <b>The boss</b> isn't there, obviously. You've never actually seen him in person. None of you have.",
+		"text": "<b>Sudden point of view change!</b><br><br>You are a member of the <span style='color:#ffffff'><b>Brotherhood of White Hats</b></span>, so called because you all wear a <span style='color:#ffffff'><b>really awesome white hat</b></span>. For decades, a rival organization called the <b>Brotherhood of Black Hats</b> has opposed your every move. But now, you believe you're on to something.<br>A <b>creepy bearded guy</b> tipped you off about a <b>Black Hat</b> agent here in Left. Sure enough, you found him skulking around a dark alleway and captured him. He could have critical intel on the <b>Black Hats</b>, so he'll need to be interrogated.<br>You enter the <span style='color:#ffffff'><b>White Hat</b></span> HQ. <b>The boss</b> isn't there, obviously. You've never actually seen him in person. No one has.",
 		"type": ".png",
 		"date": "5/26/2021"
 	},
