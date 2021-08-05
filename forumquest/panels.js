@@ -1267,5 +1267,59 @@ panels = {
 		"text": "",
 		"type": ".png",
 		"date": "5/26/2021"
+	},
+	212: {
+		"title": ">> Next",
+		"text": "<b>Sudden point of view change x2!</b><br>Things are spicing up as we near the end of Chapter II.<br><br>You are the leader of the <b>Brotherhood of Black Hats</b>. A <b>mysterious letter</b> led you to this place, the HQ of the <span style='color:#ffffff'><b>White Hats</b></span>. Earlier today you sent a new recruit to take out one of their high-ranking members. You haven't heard back from him since.<br>The letter told you to 'collaborate with the prisoner', but that ain't happening. Because you've finally figured out who burned your house down.",
+		"type": ".png",
+		"date": "8/6/2021"
+	},
+	213: {
+		"title": ">> View drone footage",
+		"text": "It was this guy! What a shocking revelation. Who could have guessed!? Seems he was working for the <span style='color:#ffffff'><b>White Hats</b></span> all along. You suspect he's the 'prisoner' mentioned in the letter, so by attacking this facility you'll be able to take care of him <i>and</i> the <span style='color:#ffffff'><b>White Hats</b></span>. Two birds, one stone and all that. Or two White Hats, one knife.",
+		"type": ".png",
+		"date": "8/6/2021"
+	},
+	214: {
+		"title": ">> Next",
+		"text": "This facility is locked down tight, so these are gonna come in handy.",
+		"type": ".png",
+		"date": "8/6/2021"
+	},
+	215: {
+		"title": ">> Next",
+		"text": "You acquired the explosives from an Imperial military base. The emperor isn't gonna be happy about this, but if there's one thing you hate more than the <span style='color:#ffffff'><b>White Hats</b></span>, it's him.<br>Fortunately, you think you've found a way to kill that miserable bastard once and for all.<br>But that's for later.<br>There's no time to lose, you've got a building to raid.",
+		"type": ".png",
+		"date": "8/6/2021"
+	},
+	216: {
+		"title": ">> Next",
+		"text": "You are now the protagonist.<br><br>A <span style='color:#ffffff'><b>White Hat</b></span> has interrupted your escape plan! What do you do?",
+		"type": ".png",
+		"date": "8/6/2021"
+	},
+	217: {
+		"title": ">> Charge into battle with key",
+		"text": "Here goes nothing! Wielding the <b>key</b> you found, you charge into battle and manage to knock the unsuspecting <span style='color:#ffffff'><b>White Hat</b></span> unconscious.",
+		"type": ".gif",
+		"date": "8/6/2021"
+	},
+	218: {
+		"title": "[S] Jailbreak",
+		"text": "",
+		"type": ".mp4",
+		"date": "8/6/2021"
+	},
+	219: {
+		"title": "<h1>END OF CHAPTER II</h1>",
+		"text": "",
+		"type": ".png",
+		"date": "8/6/2021"
+	},
+	220: {
+		"title": ">> Recap",
+		"text": spoiler_button + "<br>The story begins with our amnesiac <b>protagonist</b> waking up in an unfamiliar desert. After some brief exploration, he comes across a <b>wooden shack</b>, which he burns down in a random pyromanic episode.<br>His journey brings him to <b>Right</b>, a small desert village. Before he can explore the settlement, he is attacked by a group of <b>alien space bats</b>. He manages to fight them off, but decides to file a <b>restraining order</b> in hopes of preventing another attack.<br>To obtain funds for the restraining order, he visits the local bank. As it turns out, the bank is a front for an organized crime syndicate called the <b>Brotherhood of Black Hats</b>. The protagonist ends up being recruited and sent on a mission to take out a member of the <b>Brotherhood of White Hats</b>. He finds out that the wooden shack he burned down belonged to the leader of the Black Hats.<br>Hilarious antics ensue (including the discovery of <b>Chekhov's Gun</b>), and eventually the protagonist ends up in a <b>strange alien dimension</b>. There, he is contacted by a <b>telepathic mystery man</b>, who helps the protagonist escape his predicament. In return, the protagonist must do the <b>mystery man</b> a favor by visiting someone in <b>Left</b>, a nearby town.<br>The protagonist invests his skill points into dragon riding, and rides one to the town of <b>Bahlarat</b>, where he sells off Chekhov's Gun.<br>Night has fallen when the protagonist finally reaches Left. He is immediately set upon by a group of <b>White Hats</b>, who somehow know about his involvement with the <b>Black Hats</b>. He is captured and locked in a jail cell.<br>Meanwhile, the leader of the Brotherhood of Black Hats, also known as the <b>mob boss</b>, investigates the destruction of his <b>wooden shack</b>. After getting knocked unconscious by a painting, he discovers a letter telling him to travel to the White Hat HQ in Left. Some time later, he finds the incriminating evidence he was looking for in the form of drone footage.<br>The mob boss and a group of Black Hats travel to Left in order to take care of both the White Hats and the protagonist. The protagonist breaks out of his cell and finds a <b>strange orb</b>. Meanwhile, the Black Hats infiltrate the White Hat HQ. The mob boss encounters the protagonist and throws a knife at him, but he vanishes along with the strange orb.<br>Far away within the walls of the Imperial Palace, the <b>Emperor</b> awakens.</div><br>",
+		"type": ".png",
+		"date": "8/6/2021"
 	}
 }
