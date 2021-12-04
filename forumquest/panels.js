@@ -1321,5 +1321,83 @@ panels = {
 		"text": spoiler_button + "<br>The story begins with our amnesiac <b>protagonist</b> waking up in an unfamiliar desert. After some brief exploration, he comes across a <b>wooden shack</b>, which he burns down in a random pyromanic episode.<br>His journey brings him to <b>Right</b>, a small desert village. Before he can explore the settlement, he is attacked by a group of <b>alien space bats</b>. He manages to fight them off, but decides to file a <b>restraining order</b> in hopes of preventing another attack.<br>To obtain funds for the restraining order, he visits the local bank. As it turns out, the bank is a front for an organized crime syndicate called the <b>Brotherhood of Black Hats</b>. The protagonist ends up being recruited and sent on a mission to take out a member of the <b>Brotherhood of White Hats</b>. He finds out that the wooden shack he burned down belonged to the leader of the Black Hats.<br>Hilarious antics ensue (including the discovery of <b>Chekhov's Gun</b>), and eventually the protagonist ends up in a <b>strange alien dimension</b>. There, he is contacted by a <b>telepathic mystery man</b>, who helps the protagonist escape his predicament. In return, the protagonist must do the <b>mystery man</b> a favor by visiting someone in <b>Left</b>, a nearby town.<br>The protagonist invests his skill points into dragon riding, and rides one to the town of <b>Bahlarat</b>, where he sells off Chekhov's Gun.<br>Night has fallen when the protagonist finally reaches Left. He is immediately set upon by a group of <b>White Hats</b>, who somehow know about his involvement with the <b>Black Hats</b>. He is captured and locked in a jail cell.<br>Meanwhile, the leader of the Brotherhood of Black Hats, also known as the <b>mob boss</b>, investigates the destruction of his <b>wooden shack</b>. After getting knocked unconscious by a painting, he discovers a letter telling him to travel to the White Hat HQ in Left. Some time later, he finds the incriminating evidence he was looking for in the form of drone footage.<br>The mob boss and a group of Black Hats travel to Left in order to take care of both the White Hats and the protagonist. The protagonist breaks out of his cell and finds a <b>strange orb</b>. Meanwhile, the Black Hats infiltrate the White Hat HQ. The mob boss encounters the protagonist and throws a knife at him, but he vanishes along with the strange orb.<br>Far away within the walls of the Imperial Palace, the <b>Emperor</b> awakens.</div><br>",
 		"type": ".png",
 		"date": "8/6/2021"
-	}
+	},
+	221: {
+		"title": "<h1>CHAPTER III</h1>",
+		"text": "",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	222: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	223: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	224: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	225: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	226: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".gif",
+		"date": "12/5/2021"
+	},
+	227: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".gif",
+		"date": "12/5/2021"
+	},
+	228: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	229: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	230: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	231: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	232: {
+		"title": ">> Next",
+		"text": "",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	233: {
+		"title": ">> Next",
+		"text": "You are an <b>elite hacker</b>. Tonight, on the eve of your <b>sixteenth birthday</b>, you stand in your <b>unreasonably dark room</b>, surrounded by various <b>incredibly high-tech devices</b>. These include but are not limited to a <b>television</b> and your <b>personal computer</b>.<br>Plastered on the walls are posters for <b>really old hacker movies</b>. As evidenced by your <b>outrageously cool shades</b>, you're a fan of the early 21st century hacker aesthetic.<br><br>What is your name?",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
 }
