@@ -1400,4 +1400,64 @@ panels = {
 		"type": ".png",
 		"date": "12/5/2021"
 	},
+	234: {
+		"title": ">> Insert name",
+		"text": "Your name is <b>Owen Anderson</b>. Your pseudonym of choice is <span style='color:#777777'><b>elite_hacker</b></span>.<br>Your first name pronounced backwards is remarkably similar to your favorite <b>early 21st century fictional hacker</b>. You've always thought that's an interesting coincidence.",
+		"type": ".png",
+		"date": "12/6/2021"
+	},
+	235: {
+		"title": ">> Examine calendar",
+		"text": "As mentioned before, it's the <b>eve of your sixteenth birthday</b>. But there's no time to celebrate.<br>Because the world ends in 24 hours.",
+		"type": ".png",
+		"date": "12/6/2021"
+	},
+	236: {
+		"title": ">> Rewind",
+		"text": "",
+		"type": ".gif",
+		"date": "12/5/2021"
+	},
+	237: {
+		"title": ">> Next",
+		"text": "You are an <b>elite hacker</b>. Tonight, on the eve of your <b>sixteenth birthday</b>, you stand in your <b>unreasonably dark room</b>, surrounded by various <b>incredibly high-tech devices</b>. These include but are not limited to a <b>television</b> and your <b>personal computer</b>.<br>Plastered on the walls are posters for <b>really old hacker movies</b>. As evidenced by your <b>outrageously cool shades</b>, you're a fan of the early 21st century hacker aesthetic.<br><br>You also have a serious case of deja vu.",
+		"type": ".png",
+		"date": "12/5/2021"
+	},
+	238: {
+		"title": ">> Examine Matrix poster",
+		"text": "You take a moment to admire this poster for <i>The Matrix</i> starring Keanu Reeves. God, this movie is awesome.<br>That's really all there is to say on the matter.",
+		"type": ".png",
+		"date": "12/6/2021"
+	},
+	239: {
+		"title": ">> Examine other poster",
+		"text": "You acquired this poster three years ago, on the 100th year anniversary of <i>WarGames</i>. You wouldn't say it's as good as The Matrix, but it's still pretty damn entertaining.",
+		"type": ".png",
+		"date": "12/6/2021"
+	},
+	240: {
+		"title": ">> Examine desk",
+		"text": "On your desk are a variety of items, including your <b>personal computer</b>, a <b>shady USB drive</b>, a <b>postcard</b>, and a <b>hacking book</b>.",
+		"type": ".png",
+		"date": "12/6/2021"
+	},
+	241: {
+		"title": ">> Examine USB",
+		"text": "This unassuming <b>flash drive</b> contains a deadly self-replicating virus of your own design. You haven't tested it, but assuming it works, it'll allow you to remotely access any device it infects.",
+		"type": ".png",
+		"date": "12/6/2021"
+	},
+	242: {
+		"title": ">> Examine postcard",
+		"text": "You received this <b>postcard</b> from a friend when his family visited Japan several years ago. Mere days after they left, the government was overthrown. Under Emperor Kojima's iron fist, Japan was reorganized into the first strand-type country. Since then, he's waged a brutal war against the rest of the world.<br>The Alpha-Omega Coalition retaliated by banning anime in all cities under their control, much to your relief.",
+		"type": ".png",
+		"date": "12/6/2021"
+	},
+	243: {
+		"title": ">> Examine book",
+		"text": "After expressing an interest in computers, you received this book as a Christmas present from your mom. At the time, you thought it was the coolest thing ever, but you've started to think she was trying to tell you something.",
+		"type": ".png",
+		"date": "12/6/2021"
+	},
 }
