@@ -1420,7 +1420,7 @@ panels = {
 	},
 	237: {
 		"title": ">> Next",
-		"text": "You are an <b>elite hacker</b>. Tonight, on the eve of your <b>sixteenth birthday</b>, you stand in your <b>unreasonably dark room</b>, surrounded by various <b>incredibly high-tech devices</b>. These include but are not limited to a <b>television</b> and your <b>personal computer</b>.<br>Plastered on the walls are posters for <b>really old hacker movies</b>. As evidenced by your <b>outrageously cool shades</b>, you're a fan of the early 21st century hacker aesthetic.<br><br>You also have a serious case of deja vu.",
+		"text": "You are an <b>elite hacker</b>. Tonight, on the eve of the eve of your <b>sixteenth birthday</b>, you stand in your <b>unreasonably dark room</b>, surrounded by various <b>incredibly high-tech devices</b>. These include but are not limited to a <b>television</b> and your <b>personal computer</b>.<br>Plastered on the walls are posters for <b>really old hacker movies</b>. As evidenced by your <b>outrageously cool shades</b>, you're a fan of the early 21st century hacker aesthetic.<br><br>You also have a serious case of deja vu.",
 		"type": ".png",
 		"date": "12/5/2021"
 	},
