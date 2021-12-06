@@ -1456,7 +1456,7 @@ panels = {
 	},
 	243: {
 		"title": ">> Examine book",
-		"text": "After expressing an interest in computers, you received this book as a Christmas present from your mom. At the time, you thought it was the coolest thing ever, but you've started to think she was trying to tell you something.",
+		"text": "After expressing an interest in computers, you received this book as a Christmas present from your mom. At the time, you thought it was the coolest thing ever, but over the years you've started to think she was trying to tell you something.",
 		"type": ".png",
 		"date": "12/6/2021"
 	},
