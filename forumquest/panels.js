@@ -1416,13 +1416,13 @@ panels = {
 		"title": ">> Rewind",
 		"text": "",
 		"type": ".gif",
-		"date": "12/5/2021"
+		"date": "12/6/2021"
 	},
 	237: {
 		"title": ">> Next",
 		"text": "You are an <b>elite hacker</b>. Tonight, on the eve of the eve of your <b>sixteenth birthday</b>, you stand in your <b>unreasonably dark room</b>, surrounded by various <b>incredibly high-tech devices</b>. These include but are not limited to a <b>television</b> and your <b>personal computer</b>.<br>Plastered on the walls are posters for <b>really old hacker movies</b>. As evidenced by your <b>outrageously cool shades</b>, you're a fan of the early 21st century hacker aesthetic.<br><br>You also have a serious case of deja vu.",
 		"type": ".png",
-		"date": "12/5/2021"
+		"date": "12/6/2021"
 	},
 	238: {
 		"title": ">> Examine Matrix poster",
@@ -1460,4 +1460,34 @@ panels = {
 		"type": ".png",
 		"date": "12/6/2021"
 	},
+	244: {
+		"title": ">>Log on to computer",
+		"text": "Enough of this fooling around! Time to get down to business.",
+		"type": ".png",
+		"date": "12/14/2021"
+	},
+	245: {
+		"title": ">> Open game client",
+		"text": "You open your game library of choice, <b>Vapor</b>.<br>In addition to various <b>antiquated hacking simulators</b>, your favorite games include <b>Half-Life 4</b>, <b>Portal 3</b>, and the latest title in the Elder Scrolls series, <b>Skyrim</b>.",
+		"type": ".png",
+		"date": "12/14/2021"
+	},
+	246: {
+		"title": ">> Next",
+		"text": "Looks like someone is messaging you.",
+		"type": ".png",
+		"date": "12/14/2021"
+	},
+	247: {
+		"title": ">> Open chat client",
+		"text": "You open <b>Wyvern</b>. Seems like one of your friends wants to chat.",
+		"type": ".png",
+		"date": "12/14/2021"
+	},
+	248: {
+		"title": ">> Answer",
+		"text": spoiler_button + "<div style='font-family:Consolas;font-size:14px'><span style='color:#0094ff'>apocryphal_artist: still awake huh</span><br><span style='color:#777777'>elite_hacker: I've been up for hours trying to debug this stupid lousy goddamn virus.</span><br><span style='color:#0094ff'>apocryphal_artist: oh man<br>apocryphal_artist: hope it doesnt brick your pc again</span><br><span style='color:#777777'>elite_hacker: Yeah, that would be a shame.</span><br><span style='color:#0094ff'>apocryphal_artist: anyway its past midnight so<br>apocryphal_artist: happy early birthday i guess</span><br><span style='color:#777777'>elite_hacker: Thanks :D</span><br><span style='color:#0094ff'>apocryphal_artist: so uh<br>apocryphal_artist: did you get my package yet</span><br><span style='color:#777777'>elite_hacker: No.<br>elite_hacker: The mail's downstairs and I couldn't be bothered to climb down all fifteen flights of stairs at this time of night.</span><br><span style='color:#0094ff'>apocryphal_artist: ah<br>apocryphal_artist: well lemme just say you are going to love it</span><br><span style='color:#777777'>elite_hacker: Don't tell me it's another of your Japanese animes.</span><br><span style='color:#0094ff'>apocryphal_artist: youll love this one i promise</span><br><span style='color:#777777'>elite_hacker: Dude, your taste is so bad you make me look like NP.</span><br><span style='color:#0094ff'>apocryphal_artist: i dont think thats possible<br>apocryphal_artist: you know those 8 hour long bullshit arthouse movies she watches</span><br><span style='color:#777777'>elite_hacker: Surely you mean 'films'?</span><br><span style='color:#0094ff'>apocryphal_artist: haha yeah cant forget that<br>apocryphal_artist: anyway lets say you started watching those<br>apocryphal_artist: now theres a grand total of two people who unironically enjoy them<br>apocryphal_artist: suddenly theyre too mainstream for her so she has to move on to increasingly obscure and esoteric things if thats even possible<br>apocryphal_artist: like a fucking hipster on crack<br>apocryphal_artist: 24 hours of silence, but its high art because its a metaphor for our rapidly encroaching demise or something<br>apocryphal_artist: uh what were we talking about<br>apocryphal_artist: oh right the package<br>apocryphal_artist: its not anime this time<br>apocryphal_artist: i think youll like it</span><br><span style='color:#777777'>elite_hacker: Oh thank god.<br>elite_hacker: Might as well go get it, seeing as I've got nothing better to do.</span><br><span style='color:#0094ff'>apocryphal_artist: ok just dont open it til tomorrow</span></div></div>",
+		"type": ".png",
+		"date": "12/14/2021"
+	}
 }
